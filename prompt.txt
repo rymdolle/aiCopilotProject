@@ -28,3 +28,19 @@ Used 1 reference
 Sure, here is the file you requested:
 
 .gitignore
+
+
+rymdolle
+@workspace /fix Kan du utöka funktionaliteten så att man kan ha flera typer av kontekter som till exempel privata- eller jobbkontakter.
+
+För att utöka funktionaliteten så att man kan ha flera typer av kontakter, som till exempel privata- eller jobbkontakter, kan vi lägga till en kolumn i databasen för att lagra kontakttypen och uppdatera koden för att hantera detta.
+
+Steg-för-steg plan:
+Uppdatera databasens schema för att inkludera en kolumn för kontakttyp.
+Uppdatera ContactController för att hantera kontakttyp.
+Uppdatera main.py för att fråga användaren om kontakttyp när en ny kontakt läggs till.
+Uppdatera initialize_database i main.py:
+￼
+Uppdatera main.py:
+￼
+Nu har vi uppdaterat koden för att stödja flera typer av kontakter.

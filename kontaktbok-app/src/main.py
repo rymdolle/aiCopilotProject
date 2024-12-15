@@ -11,7 +11,8 @@ def initialize_database():
             id INTEGER PRIMARY KEY,
             name TEXT NOT NULL,
             phone_numbers TEXT,
-            email_addresses TEXT
+            email_addresses TEXT,
+            contact_type TEXT NOT NULL
         )
     ''')
     connection.commit()
@@ -32,7 +33,8 @@ def main():
             name = input("Ange namn: ")
             phone_numbers = input("Ange telefonnummer (separerade med kommatecken): ")
             emails = input("Ange e-postadresser (separerade med kommatecken): ")
-            contact_controller.add_contact(name, phone_numbers, emails)
+            contact_type = input("Ange kontakttyp (privat/jobb): ")
+            contact_controller.add_contact(name, phone_numbers, emails, contact_type)
         elif choice == '2':
             contact_controller.search_contact()
         elif choice == '3':
