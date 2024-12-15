@@ -18,3 +18,13 @@ Traceback (most recent call last):
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Nu bör programmet fungera korrekt när du försöker lägga till en kontakt.
+
+
+rymdolle
+@workspace /new Skapa en .gitignore som passar detta projekt
+
+Workspace
+Used 1 reference
+Sure, here is the file you requested:
+
+.gitignore
