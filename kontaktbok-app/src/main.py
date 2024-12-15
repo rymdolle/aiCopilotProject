@@ -29,7 +29,10 @@ def main():
         choice = input("Välj ett alternativ: ")
 
         if choice == '1':
-            contact_controller.add_contact()
+            name = input("Ange namn: ")
+            phone_numbers = input("Ange telefonnummer (separerade med kommatecken): ")
+            emails = input("Ange e-postadresser (separerade med kommatecken): ")
+            contact_controller.add_contact(name, phone_numbers, emails)
         elif choice == '2':
             contact_controller.search_contact()
         elif choice == '3':

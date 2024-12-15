@@ -4,3 +4,17 @@ rymdolle
 Sure, here's a proposed directory structure for a Kontaktbok app:
 
 Create Workspace...
+
+
+rymdolle
+@workspace /fix Fixa problemet som uppstår när programmet körs
+Traceback (most recent call last):
+  File "aiCopilotProject/kontaktbok-app/src/main.py", line 46, in <module>
+    main()
+  File "aiCopilotProject/kontaktbok-app/src/main.py", line 35, in main
+    contact_controller.add_contact(name, phone_numbers, emails)
+  File "aiCopilotProject/kontaktbok-app/src/controllers/contact_controller.py", line 6, in add_contact
+    contact = self.contact_model(name=name, phone_numbers=phone_numbers, emails=emails)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Nu bör programmet fungera korrekt när du försöker lägga till en kontakt.
