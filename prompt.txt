@@ -1,0 +1,6 @@
+rymdolle
+@workspace /new Jag vill skape en Kontaktbok där man kan lägga till och spara kontakter med multipla e-mail, telefonnummer osv. SQLite eller annan databas som backer. Sökbar på namn, telefonnummer och kanske något mer. GUI eller TUI (Text User Interface - "pimpad konsol"). Kan du hjälpa mig att komma igång med att skapa ett projekt utifrån det?
+
+Sure, here's a proposed directory structure for a Kontaktbok app:
+
+Create Workspace...
